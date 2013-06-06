@@ -9,3 +9,8 @@
 .color10 {
 	background: #ccc;
 } 
+
+body{
+	background: yellow;
+	margin: 100px;
+}
