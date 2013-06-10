@@ -14,3 +14,7 @@ body{
 	background: yellow;
 	margin: 100px;
 }
+
+ul li{
+	list-style: none;
+}

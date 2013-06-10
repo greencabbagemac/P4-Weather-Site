@@ -26,6 +26,11 @@ $(document).ready(function() {
 				html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
 				html += '<img src="img/' + weather.code + '.png"/>';
 				
+				html = '<h3>'+weather.city+', '+weather.region+'</h3>';
+				html += '<h2>'+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+				html += '<ul><li><img src="img/'+weather.code+'.png"></li>';
+				html += '<li><h5>'+weather.currently+'</h5></li></ul>';
+				
 				//html += $('body').addClass('color'+ weather.code);
 				
 				// <img src="img/30.png />
