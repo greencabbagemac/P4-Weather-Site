@@ -31,7 +31,7 @@ $(document).ready(function() {
 				html += '<ul><li><img src="img/'+weather.code+'.png"></li>';
 				html += '<li><h5>'+weather.currently+'</h5></li></ul>';
 				
-				//html += $('body').addClass('color'+ weather.code);
+				html += $('body').addClass('color'+ weather.code);
 				
 				// <img src="img/30.png />
 				
